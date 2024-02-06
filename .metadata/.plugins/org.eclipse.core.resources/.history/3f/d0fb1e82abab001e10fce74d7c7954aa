@@ -1,0 +1,9 @@
+package day4;
+
+public class Ex00Con {
+
+	public static void main(String[] args) {
+		//소지금액에 따라 다른 메뉴 
+	}
+
+}

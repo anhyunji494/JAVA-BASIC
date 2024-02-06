@@ -1,0 +1,28 @@
+package festival;
+
+import java.util.Scanner;
+
+public class SecondQ04 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in); 
+		
+		System.out.print("총금액 입력 : ");
+		int money = sc.nextInt();
+		System.out.println();
+		System.out.println("잔돈 : "+money+"원");
+		
+		int cnt10000 = money / 10000;  
+		int cnt5000 = money % 10000 / 5000; 
+		int cnt1000 = money % 10000 % 5000 / 1000; 
+		int cnt500 = money % 10000 % 5000 % 1000 / 500; 
+		int cnt100 = money % 10000 % 5000 % 1000 % 500 / 100; 
+		
+		System.out.println("10000원 : "+cnt10000+"개");
+		System.out.println("5000원 : "+cnt5000+"개");
+		System.out.println("1000원 : "+cnt1000+"개");
+		System.out.println("500원 : "+cnt500+"개");
+		System.out.println("100원 : "+cnt100+"개");
+	}
+
+}

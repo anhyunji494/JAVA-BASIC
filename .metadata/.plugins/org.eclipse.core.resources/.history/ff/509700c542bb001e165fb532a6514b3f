@@ -1,0 +1,13 @@
+package model;
+
+import java.util.ArrayList;
+
+import model.MemberDTO;
+
+public class MemberController {
+	public ArrayList<MemberDTO> memberList(){
+		
+		return null;
+		
+	}
+}

@@ -1,0 +1,24 @@
+package festival;
+
+public class SecondQ23 {
+
+	public static void main(String[] args) {
+		int num = 1;
+		int[][] array2 = new int[5][5];
+		for (int i = 0; i < array2.length; i++) {
+			for (int j = array2[i].length-1; j >= 0; j--) {
+				array2[j][i] = num;
+				num++;
+			}
+		}
+
+		for (int i = 0; i < array2.length; i++) {
+			for (int j = 0; j < array2[i].length; j++) {
+				System.out.print(array2[i][j] + " ");
+			}
+			System.out.println();
+		}
+
+	}
+
+}

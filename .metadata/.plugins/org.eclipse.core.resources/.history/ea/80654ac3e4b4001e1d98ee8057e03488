@@ -1,0 +1,29 @@
+package solve;
+
+import java.util.Scanner;
+
+public class B01 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a = 0;
+		int b = 0;
+
+		while (a != 0 && b != 0) {
+			// A입력
+			System.out.print("A 입력 >> ");
+			a = sc.nextInt();
+
+			// B입력
+			System.out.print("B 입력 >>");
+			b = sc.nextInt();
+
+			System.out.print("결과 >> " + (a - b));
+			if (a == 0 && b == 0) {
+				break;
+			}
+		}
+
+	}
+
+}

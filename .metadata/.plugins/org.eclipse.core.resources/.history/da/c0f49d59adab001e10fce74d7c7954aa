@@ -1,0 +1,38 @@
+package day4;
+
+import java.util.Scanner;
+
+public class Ex00Cal {
+
+	public static void main(String[] args) {
+		
+		// 1. 투입 금액 입력받기 
+		// 2. 메뉴 가격 정하기 
+		// 3. 번호로 메뉴 선택 / 조건 안 맞으면 '금액이 부족합니다' 출력 
+		// 4. 거스름돈: 1000원 500원 100원 나눠서 출력
+		
+		Scanner sc = new Scanner (System.in); 
+		
+		System.out.println("================= MENU =================");
+		System.out.println("[1] 데자와 [2] 포카리스웨트 [3] 제로콜라");
+		System.out.println("[1] 800원  [2] 1700원       [3] 1200원  ");
+		
+		System.out.println("메뉴를 선택하세요: ");
+		int Menu = sc.nextInt();
+		
+		System.out.print("소지 금액: ");
+		int Insert = sc.nextInt(); 
+		
+		if(Menu == 1) {
+			System.out.println("선택 메뉴: 데자와");
+		} else if (Menu ==2){
+			System.out.println("선택 메뉴: 포카리스웨트");
+		} else if (Menu == 3){
+			System.out.println("선택 메뉴: 제로콜라");
+		} else {
+			System.out.println("잘못 입력하셨습니다.");
+		}
+		
+	}
+
+}

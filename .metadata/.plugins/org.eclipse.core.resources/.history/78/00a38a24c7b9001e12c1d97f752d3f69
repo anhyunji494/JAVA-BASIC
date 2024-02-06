@@ -1,0 +1,23 @@
+package festival;
+
+import java.util.Scanner;
+
+public class SecondQ27 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("==== 채점하기 ====");
+		String answer = sc.next();
+		int cnt = 0;
+//		answer.charAt(0).equls("")
+		
+		String[] array = answer.split("x");
+		
+		if(array.equals("x")) {
+			cnt++;
+		}
+		
+		System.out.println(cnt);
+		
+	}
+}

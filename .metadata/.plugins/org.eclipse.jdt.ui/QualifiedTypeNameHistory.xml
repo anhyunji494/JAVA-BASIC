@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.IntSummaryStatistics"/>
+    <fullyQualifiedTypeName name="javax.security.sasl.SaslClient"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="jdk.internal.loader.AbstractClassLoaderValue.Sub"/>
+    <fullyQualifiedTypeName name="day11.Ex01People"/>
+    <fullyQualifiedTypeName name="javazoom.jl.player.MP3Player"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="day14abstract.PbkJjajang"/>
+    <fullyQualifiedTypeName name="day14abstract.PjwJjajang"/>
+    <fullyQualifiedTypeName name="day14Maple.BasicCharacter"/>
+    <fullyQualifiedTypeName name="day15Interface.Ex01Pokemon"/>
+    <fullyQualifiedTypeName name="day15Interface.Ex01Digimon"/>
+    <fullyQualifiedTypeName name="day15계산기.Triangle"/>
+    <fullyQualifiedTypeName name="day15계산기.Rectangle"/>
+    <fullyQualifiedTypeName name="day15계산기.AreaCalcaulator"/>
+    <fullyQualifiedTypeName name="day15계산기.Figure"/>
+    <fullyQualifiedTypeName name="model.MemberDTO"/>
+    <fullyQualifiedTypeName name="model.MemberDAO"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.nio.file.attribute.AclEntry"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+</qualifiedTypeNameHistroy>
